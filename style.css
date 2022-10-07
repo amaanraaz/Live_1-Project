@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    height: 20vh;
+} 
+.navbar-container .list{
+    display: flex;
+    margin-left: 150px;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container .list .list-item{
+    font-style: Orbitron;
+}
+.button-group{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-group .search-icon svg{
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+}
+.nav-button{
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+.hero-container{
+    display: flex;
+    margin-top: -5px;
+    margin-left: -1000px;
+}
+.hero-container .globe{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-top: 100px;
+}
+.hero-container .square{
+    display: flex;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.hero-container .square img{
+    height: 300px;
+    width: 300px;
+}
+.hero-container .star{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 20px;
+}
+.hero-container .star img{
+    height: 50px;
+    width: 50px;
+}
+.hero-container .hero-img{
+    display: flex;
+    margin-left: -500px;
+    margin-top: 150px;
+}
+.hero-container .hero-img img{
+    height: 400px;
+    width: 300px;
+}
+.hero-container-right{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.hero-container-right .hero-heading{
+    display: flex;
+    width: 700px;
+    height: 80px;
+    font-size: 50px;
+    font-family: Orbitron;
+}
+.hero-container-right .hero-description{
+    display: flex;
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: -650px;
+    font-size: 12px;
+    font-family: Poppins;
+    color: #645a5a;
+}
+.hero-container-right .button-email{
+    display: flex;
+    margin-top: 300px;
+    margin-left: -350px;
+    border-radius: 5px;
+    padding: 3px 20px;
+    color: rgb(187, 176, 176);
+    font-style: Orbitron;
+}
+.hero-container-right .button-join{
+    display: flex;
+    margin-top: -26px;
+    margin-left: -200px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-color: #000000;
+    color: rgb(187, 176, 176);
+    font-style: Poppins;
+}
+.hero-container .contact-heading{
+    display: flex;
+    margin-top: 400px;
+    margin-left: -300px;
+}
+.hero-container .icons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -350px;
+}
